@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bodyBienvenido{
+    overflow: hidden;
+    background-color: #924ff8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#bodyBienvenido > *{
+    padding: 30px;
+}
+#botonEntrar{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgb(0 0 27 / 41%), inset 0px 0px 5px rgb(0 0 0 / 32%);
+}
+#menu{
+    width: 100vw;
+    background-color: #924ff8;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu ul{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: flex-end;
+}
+#menu li{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+#logoMenu{
+    height: 40px;
+}
+.infoTiempo{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    padding: 20px 40px;
+    margin: auto;
+}
+#cieloActualImagen{
+    height: 200px;
+    width: 300px;
+}
+#infoCompleta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#tempActual{
+    font-size: 150px;
+    margin: 0px;
+    font-weight: lighter;
+}
+.previsionTitulo{
+    font-weight: normal;
+    font-size: 16px;
+}
+#delta{
+    color: red; 
+}
+#deltaContenedor{
+    color: grey;
+}
+#infoSecundaria{
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconosSecundarios{
+    height: 40px;
+}
+.datosSecundarios{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+.horasContenedor{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgb(0 0 27 / 25%);
+    padding: 5px 10px;
+}
+.horasContenedor img{
+    height: 25px;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+.horasContenedor article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+#previsionDias{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tarjetaPrevDia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(242, 248, 255);
+    box-shadow: 0px 0px 10px rgb(0 0 27 / 20%);
+}
+.cieloDias{
+    max-width: 80px;
+}
+.probLluviaDias{
+    max-width: 25px;
+}
+.tarjetaPrevDia > article{
+    padding: 5px;
+    /* height: 40px; */
+    display: flex;
+    align-items: center;
+}
+.maxTemp{
+    color: red;
+}
+.minTemp{
+    color: blue;
+}
